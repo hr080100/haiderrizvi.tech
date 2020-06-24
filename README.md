@@ -1,2 +1,1 @@
-# haider-rizvi
-Haider Rizvi
+# Haider Rizvi
