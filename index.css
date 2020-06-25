@@ -5,8 +5,7 @@
 
 body
 {
-    background-image: url("Background_Image.jpg");
-    background-size: cover;
+    
 }
 
 #professional_image
@@ -21,7 +20,7 @@ body
     font-size: 40px;
 }
 
-#about_me, #credits, #contact
+#about_me, #credits, #contact, #social
 {
     color: #0000ff;
     font-size: 30px;
@@ -33,7 +32,7 @@ body
     font-size: 25px;
 }
 
-#link_1, #link_2, #link_3, #link_4
+#link_1, #link_2, #link_3, #link_4, #link_5
 {
     font-size: 25px;
 }
@@ -52,5 +51,5 @@ a:hover
 
 footer
 {
-    text-align: left;
+    text-align: center;
 }
