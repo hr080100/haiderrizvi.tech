@@ -1,2 +1,2 @@
-# Haider Rizvi
-https://hr080100.github.io/haiderrizvi.tech
+# Haider Rizvi Portfolio
+https://haiderrizvi.tech
