@@ -1,0 +1,226 @@
+body::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ff0000, #ff00ff);
+    clip-path: circle(30% at left 20%);
+    z-index: -1;
+}
+
+body::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2196f3, #e91e63);
+    clip-path: circle(30% at right 70%);
+    z-index: -1;
+}
+
+.contacts
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 120px 0px 0px 0px;
+}
+
+.email, .whatsapp, .address
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0 20px 0;
+    border-radius: 15px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.email .div, .whatsapp .div, .address .div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-top: 2px solid #ffffff3f;
+    border-left: 2px solid #ffffff3f;
+    border-radius: 15px;
+    background: #ffffff20;
+    box-shadow: 0px 15px 35px #00000080;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    -ms-backdrop-filter: blur(5px);
+    -o-backdrop-filter: blur(5px);
+    transform-style: preserve-3d;
+    transition: 1s;
+    backface-visibility: hidden;
+}
+
+.email:hover .div.front
+{
+    transform: rotateY(-180deg);
+}
+
+.email .div.back
+{
+    transform: rotateY(-180deg);
+}
+
+.email:hover .div.back
+{
+    transform: rotateY(-360deg);
+}
+
+.whatsapp:hover .div.front
+{
+    transform: rotateX(180deg);
+}
+
+.whatsapp .div.back
+{
+    transform: rotateX(180deg);
+}
+
+.whatsapp:hover .div.back
+{
+    transform: rotateX(360deg);
+}
+
+.address:hover .div.front
+{
+    transform: rotateY(180deg);
+}
+
+.address .div.back
+{
+    transform: rotateY(180deg);
+}
+
+.address:hover .div.back
+{
+    transform: rotateY(360deg);
+}
+
+
+.email .div.front, .whatsapp .div.front, .address .div.front
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email .div.back, .whatsapp .div.back, .address .div.back
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cicon
+{
+    width: 150px;
+    height: 150px;
+    margin: 0px 0px 0px 0px;
+}
+
+.cont
+{
+    color: #e1e2e1;
+    font-family: "Comfortaa";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.det
+{
+    transition: 0.4s;
+    opacity: 1;
+    color: #e1e2e1;
+    font-family: "Comfortaa";
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    cursor: default;
+}
+
+.det a
+{
+    text-decoration: none;
+    color: #e1e2e1;
+    font-family: "Comfortaa";
+    line-height: 15px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+    .email:hover .div.front, .whatsapp:hover .div.front, .address:hover .div.front
+    {
+        transform: rotateY(0deg);
+    }
+
+    .email .div.back, .whatsapp .div.back, .address .div.back
+    {
+        transform: rotateY(0deg);
+    }
+
+    .email:hover .div.back, .whatsapp:hover .div.back, .address:hover .div.back
+    {
+        transform: rotateY(0deg);
+    }
+    .contacts
+    {
+        margin: 0;
+    }
+
+    .email, .whatsapp, .address
+    {
+        height: 400px;
+        transform-style: none;
+        background-color: #ffffff20;
+        overflow: hidden;
+        border-top: 2px solid #ffffff3f;
+        border-left: 2px solid #ffffff3f;
+    }
+
+    .email .div, .whatsapp .div, .address .div
+    {
+        background-color: #ffffff00;
+    }
+
+    .email .div.front, .whatsapp .div.front, .address .div.front
+    {
+        height: 50%;
+        background-color: #ffffff00;
+        border-radius: 0px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .email .div.back, .whatsapp .div.back, .address .div.back
+    {
+        height: 50%;
+        top: 50%;
+        background-color: #ffffff00;
+        border-radius: 0px;
+        border: none;
+        box-shadow: none;
+    }
+}
