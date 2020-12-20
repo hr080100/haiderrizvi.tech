@@ -193,10 +193,10 @@ a
         transition: transform 0.2s ease-in;
         padding: 70px 0px 0px 0px;
         backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(100px);
-        -moz-backdrop-filter: blur(100px);
-        -ms-backdrop-filter: blur(100px);
-        -o-backdrop-filter: blur(100px);
+        -webkit-backdrop-filter: blur(5px);
+        -moz-backdrop-filter: blur(5px);
+        -ms-backdrop-filter: blur(5px);
+        -o-backdrop-filter: blur(5px);
     }
 
     .top
