@@ -69,3 +69,19 @@ hr
     display: inline-block;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 840px)
+{
+    .page
+    {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .page
+    {
+        width: 90%;
+    }
+}
