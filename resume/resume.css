@@ -1,0 +1,71 @@
+body
+{
+    background-color: #051622;
+}
+
+.page
+{
+    background-color: #162733;
+    margin: 30px auto 30px auto;
+    padding: 10px 25px 10px 25px;
+    width: 60%;
+    border-radius: 10px;
+    color: #e1e2e1;
+    box-shadow: 0 0 50px #00000080;
+}
+
+.myname
+{
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-align: center;
+}
+
+.subheading
+{
+    color: #1ba098;
+}
+
+h4
+{
+    color: #8f6257;
+    font-size: 18px;
+}
+
+hr
+{
+    background-color: #e1e2e1;
+}
+
+.role
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+.job_desc li, .act_desc li, .cert_desc li, .skills_desc li
+{
+    list-style-type: square;
+}
+
+.cert_desc li a
+{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.pdf_version
+{
+    margin: 10px auto 10px auto;
+    padding: 10px 25px 10px 25px;
+    width: 60%;
+    color: #e1e2e1;
+    text-align: center;
+}
+
+.pdf_version a
+{
+    display: inline-block;
+    text-decoration: underline;
+}
