@@ -1,2 +1,2 @@
-# Haider Rizvi Portfolio
+# Haider Rizvi
 https://haiderrizvi.tech
