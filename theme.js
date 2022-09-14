@@ -33,7 +33,7 @@ const mode = () => {
             document.getElementById('headline').style.color = "#8f6257";
             document.getElementById('myname').style.color = "#051622";
             document.getElementById('bio').style.color = "#000000";
-            document.getElementById('mailme').style.backgroundColor = "#051622";
+            document.getElementById('mailme').style.backgroundColor = "#00458b";
             document.getElementById('mailicon').src = "icons/emailbox.png";
             document.getElementById('mailtext').style.color = "#1ba098";
             document.getElementById('copy').style.color = "#05162255";
@@ -69,7 +69,7 @@ const mode = () => {
             document.getElementById('bio').style.color = "#e1e2e1";
             document.getElementById('mailme').style.backgroundColor = "#1ba098";
             document.getElementById('mailicon').src = "icons/emailboxdark.png";
-            document.getElementById('mailtext').style.color = "#051622";
+            document.getElementById('mailtext').style.color = "#00458b";
             document.getElementById('copy').style.color = "#1ba09855";
             document.getElementById('mobile_copy').style.color = "#1ba09855";
             document.getElementById('line1').style.backgroundColor = "#1ba098";
