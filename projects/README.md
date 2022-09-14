@@ -1,1 +1,2 @@
-Projects folder.
+# Haider Rizvi Projects
+https://haiderrizvi.tech/projects/
