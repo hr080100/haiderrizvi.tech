@@ -36,6 +36,10 @@ const mode = () => {
             document.getElementById('line2').style.backgroundColor = "#051622";
             document.getElementById('line3').style.backgroundColor = "#051622";
             // document.getElementById('page').style.color = "#000000";
+            
+            document.getElementsByTagName('meta').namedItem('theme-color').setAttribute('content','#1ba098');
+            document.getElementsByTagName('meta').namedItem('msapplication-navbutton-color').setAttribute('content','#1ba098');
+            document.getElementsByTagName('meta').namedItem('apple-mobile-web-app-status-bar-style').setAttribute('content','#1ba098');
 
             //Remove the following part after page done.
             document.getElementById('remove').style.color = "#051622";
@@ -67,6 +71,10 @@ const mode = () => {
             document.getElementById('line2').style.backgroundColor = "#1ba098";
             document.getElementById('line3').style.backgroundColor = "#1ba098";
             // document.getElementById('page').style.color = "#e1e2d2";
+            
+            document.getElementsByTagName('meta').namedItem('theme-color').setAttribute('content','#051622');
+            document.getElementsByTagName('meta').namedItem('msapplication-navbutton-color').setAttribute('content','#051622');
+            document.getElementsByTagName('meta').namedItem('apple-mobile-web-app-status-bar-style').setAttribute('content','#051622');
 
             //Remove the following part after page done.
             document.getElementById('remove').style.color = "#1ba098";
